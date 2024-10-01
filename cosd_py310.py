@@ -1,3 +1,4 @@
+import sys
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -7,6 +8,8 @@ import gzip
 from io import BytesIO
 from datetime import datetime
 from sklearn.preprocessing import LabelEncoder
+
+st.write(f"Python version: {sys.version}")
 
 # Download the compressed model from GitHub
 @st.cache_resource
