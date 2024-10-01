@@ -1,0 +1,17 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Streamlit cache files
+.streamlit/cache/
+
+# Ignore model files (if stored locally)
+*.pkl
+*.pkl.gz
